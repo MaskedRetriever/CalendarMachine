@@ -1,0 +1,1 @@
+Right now there are a lot of little minor glitches that I never really ironed out because I use the tool more or less exactly four times a year, which if I weren't doing a test project to think about best practices for pushing stuff on the web would probably not come up.

@@ -1,0 +1,3 @@
+Calendar Machine is a simple test project that makes calendars.  It makes use of the fact that .svg is an open standard which can be written nicely "by hand" and churns out highly print-friendly desk blotters.
+
+My use case is that I run one of these off at the beginning of an academic quarter and use it as a sort of rough outline of what lectures need to cover, when projects are due, and how grievously behind I am on grading midterms.
