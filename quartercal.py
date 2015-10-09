@@ -22,8 +22,15 @@ SvgLib.svgWidth=pxW
 SvgLib.svgHeight=pxH
 calout.write(SvgLib.svgHeader())
 
+SvgLib.LineWeight = 1
+for i in range(1,8):
+	calout.write(SvgLib.svgLine(pxW*i/7-pxW/140,pxW*i/7-pxW/140,0,pxH))
+
+
+SvgLib.LineWeight = 3
 for i in range(0,8):
 	calout.write(SvgLib.svgLine(pxW*i/7,pxW*i/7,0,pxH))
+	
 
 total_days=(YMDEnd-YMDStart).days+1
 daylist = []
@@ -45,7 +52,6 @@ for i,daylabel in enumerate(daylist):
 		calout.write(SvgLib.svgLine(x-1,x-1,y,y+pxH/numweeks))
 	if daylabel<8:
 		calout.write(SvgLib.svgLine(x,x+pxW/7,y+2,y+2))
-
 
 
 calout.write(SvgLib.svgFooter())
